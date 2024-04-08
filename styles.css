@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    padding: 40px;
+    background-color: #FAFAFA;
+    color: #424242;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 960px;
+    background: #FFFFFF;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+section {
+    background: #b3e5f5;
+    color: #333;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #025aa5;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #424242;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.smaller-heading, .center-bold {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #424242;
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+ul li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+p, table {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid #E3F2FD;
+    text-align: center;
+    padding: 12px;
+}
+
+th {
+    background-color: #0290D8;
+    color: #FFFFFF;
+}
+
+tr:nth-child(even) {
+    background-color: #E3F2FD;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.95em;
+    color: #888;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #E0E0E0;
+    width: 100%;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #0275d8;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #025aa5;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+
+@media screen and (max-width: 768px) {
+    body, main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h2, .smaller-heading {
+        font-size: 1.8rem;
+    }
+
+    ul, p, table {
+        text-align: center;
+    }
+
+    ul {
+        display: block;
+    }
+}
