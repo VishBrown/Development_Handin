@@ -34,6 +34,14 @@ section {
     border-radius: 8px;
     text-align: center;
 }
+.profile-picture {
+    display: block;
+    margin: 1rem auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
 
 h1, h2 {
     font-weight: 300;
